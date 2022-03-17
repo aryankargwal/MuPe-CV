@@ -16,3 +16,11 @@ In this context, we propose a comprehensive study of how MLP compares to modern 
 
 The main motive behind this study is to explore networks with smaller footprints that can potentially achieve similar or slightly reduced accuracies to dense CNNs. This improves training, testing, and iteration time allows deployment of ML algorithms in IoT Devices to further ML on Edge development, lets these advanced architectures be used in parallel with computationally heavy tasks such as Virtual Reality or WebApp Development. <br>
 
+## Models to Train
+
+- [ ] Neural Network Classification
+- [ ] Neural Network Segmentation
+- [ ] Neural Network Detection
+- [ ] MLP Classification
+- [ ] MLP Segmentation
+- [ ] MLP Detection
