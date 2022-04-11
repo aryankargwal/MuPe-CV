@@ -18,7 +18,7 @@ The main motive behind this study is to explore networks with smaller footprints
 
 ## Datasets for Individual Tasks
 ### Classification
-[Fashion MNIST](https://github.com/zalandoresearch/fashion-mnist): This dataset was used for this comparison due to the abundance of 28x28 pixel grayscale images which can be assigned to 10 classes and following the traditional MNIST dataset serves as a very accurate way to compare the performances of CNNs and MLPs.
+[Fashion MNIST](https://github.com/zalandoresearch/fashion-mnistzzzzz): This dataset was used for this comparison due to the abundance of 28x28 pixel grayscale images which can be assigned to 10 classes and following the traditional MNIST dataset serves as a very accurate way to compare the performances of CNNs and MLPs.
 ### Segmentation
 ### Detection
 
