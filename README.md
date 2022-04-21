@@ -16,11 +16,27 @@ In this context, we propose a comprehensive study of how MLP compares to modern 
 
 The main motive behind this study is to explore networks with smaller footprints that can potentially achieve similar or slightly reduced accuracies to dense CNNs. This improves training, testing, and iteration time allows deployment of ML algorithms in IoT Devices to further ML on Edge development, lets these advanced architectures be used in parallel with computationally heavy tasks such as Virtual Reality or WebApp Development. <br>
 
-## Datasets for Individual Tasks
-### Classification
+## Dataset for the Tasks
 [Fashion MNIST](https://github.com/zalandoresearch/fashion-mnistzzzzz): This dataset was used for this comparison due to the abundance of 28x28 pixel grayscale images which can be assigned to 10 classes and following the traditional MNIST dataset serves as a very accurate way to compare the performances of CNNs and MLPs.
-### Segmentation
-### Detection
+
+## Model Architectures for the Task
+### MLP
+For the multilayer perceptron implementation to Classify images we trained a network with the following specifications.
+- Layers: 4 Layers
+- Parameters: 400,906
+- Epochs: 200 (but will terminate at no change to the loss)<br>
+
+<img src="assets/mlp_class.png" width="1000">
+
+### CNN
+For the CNN implementation to classify the images we trained a network with the following specifications
+- Layers: 4 Layers
+- Parameters: 694,090
+- Epochs: 200 (but will terminate at no change to the loss)<br>
+
+<img src="assets/cnn_class.png" width="1000">
+
+## Training Results
 
 ## Models to Train
 
