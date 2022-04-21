@@ -37,6 +37,23 @@ For the CNN implementation to classify the images we trained a network with the 
 <img src="assets/cnn_class.png" width="1000">
 
 ## Training Results
+For both training, a condition of training stopping incase of no improvement to validation loss was put. When this condition triggers the model weights from the end of the best epoch are restored and mapped into the evaluation metrics. Let us take a look at the results:
+### MLP
+The training stopped at the 18th epoch with no improvement to the validation loss and the weights from the 13th epoch are restored being the best.
+
+<img src="assets/mlp_epoch.png">
+
+Given is the plot for the Model Accuracy and Model Loss:
+
+<img src="assets/mlp_loss.png">
+
+Given is the confusion matrix for the classification task:
+
+<img src="assets/mlp_conf.png">
+
+Given is the Classification Report for the task:
+
+<img src="assets/mlp_rep.png">
 
 ## Models to Train
 
