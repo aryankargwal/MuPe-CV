@@ -24,9 +24,9 @@ The main motive behind this study is to explore networks with smaller footprints
 
 ## Models to Train
 
-- [ ] Neural Network Classification
+- [x] Neural Network Classification
 - [ ] Neural Network Segmentation
 - [ ] Neural Network Detection
-- [ ] MLP Classification
+- [x] MLP Classification
 - [ ] MLP Segmentation
 - [ ] MLP Detection
